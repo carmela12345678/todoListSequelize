@@ -1,0 +1,49 @@
+<html>
+  <head>
+    <link href="/assets/css/style.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <title>Registration Form</title>
+    <!------ Include the above in your HEAD tag ---------->
+  </head>
+
+<body>
+  <section>
+    <div class="container register-form">
+            <div class="form">
+                <div class="note">
+                    <p>This is a simpleRegister Form made using Boostrap.</p>
+                </div>
+                <form action="/account/create_account" method="POST">
+                <div class="form-content">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="text" name="username" class="form-control" placeholder="Username" required>
+                            </div>
+                            <div class="form-group">
+                              <input type="email" name="email" class="form-control" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                              <input type="password" name="password" class="form-control" placeholder="Password"  required>
+                            </div>
+                            <div class="form-group">
+                              <input type="password" name="password2" class="form-control" placeholder="Confirm Password">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                      <input type="submit" class="btn btn-primary mt-4">
+                    </div>
+                </div>
+              </form>
+            </div>
+        </div>
+      </section>
+    </body>
+
+</html>
